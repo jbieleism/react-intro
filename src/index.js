@@ -2,10 +2,13 @@ import React from 'react';
 
 import ReactDOM from 'react-dom'
 
+const API_KEY = config.API_KEY;
+
+
 //create a new component
 //should produce some html
-const App = function() {
-  return <div> Hello pooper </div>;
+const App = () => {
+  return <div>  </div>;
 }
 
 
