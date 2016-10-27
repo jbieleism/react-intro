@@ -1,3 +1,10 @@
+This is the repo from Stephen Grider's React Tutorial. I'm using this to reinforce react fundamentals
+
+
+ ==========================
+ ==========================
+
+
 # ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
