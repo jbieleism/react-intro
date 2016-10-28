@@ -2,13 +2,20 @@ import React from 'react';
 
 import ReactDOM from 'react-dom'
 
+import SearchBar from './components/search-bar'
+
+
 const API_KEY = config.API_KEY;
 
 
 //create a new component
 //should produce some html
 const App = () => {
-  return <div>  </div>;
+  return (
+    <div>
+      <SearchBar />
+    </div>
+  )
 }
 
 
