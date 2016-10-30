@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
 import Search from 'youtube-api-search'
+import SearchBar from './components/search-bar';
+import VideoList from './components/video-list'
 
-import SearchBar from './components/search-bar'
-
-const API_KEY = /*API key here*/;
-
+const API_KEY = 'AIzaSyBbrqtLRSuXj53lDoPnGEQMWag55Lc7svE';
 
 class App extends Component {
 
@@ -24,12 +23,15 @@ class App extends Component {
     return (
       <div>
         <SearchBar />
+        <VideoList videos={ this.state.videos }/>
      </div>
     )
   }
-
-
 }
+
+
+
+//take component generated html and render to dom
 
 ReactDOM.render(<App />, document.querySelector('.container'));
 
