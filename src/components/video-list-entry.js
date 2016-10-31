@@ -1,5 +1,5 @@
 import React from 'react';
-
+import VideoDetail from './video-detail'
 
 const VideoListEntry = ({video}) => {
 
