@@ -1,15 +1,15 @@
 import React from 'react';
 import VideoDetail from './video-detail'
 
-const VideoListEntry = ({video}) => {
+const VideoListEntry = ( {video, onVideoClick} ) => {
 
   const image = video.snippet.thumbnails.default.url;
 
   return (
 
-    <li className="list-group-item">
-      <div className="video-list media">
+    <li onClick={ () =>  onVideoClick(video) } className="list-group-item">
 
+      <div className="video-list media">
         <div className="media-left">
           <img className="media-object" src={image} />
         </div>
@@ -17,8 +17,8 @@ const VideoListEntry = ({video}) => {
         <div className="media-body">
           <div className="media-heading">{video.snippet.title}</div>
         </div>
-
       </div>
+
     </li>
 
   )
