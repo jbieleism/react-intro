@@ -28,6 +28,6 @@
 
 .list-group-item:hover{
   transition:.5s;
-  background-color:#333333;
+  background-color:slategrey;
   color:white;
 }
