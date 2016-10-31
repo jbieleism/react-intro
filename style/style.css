@@ -5,8 +5,15 @@
 
 
 .search-bar input{
-  max-width:75%;
+  height:30px;
+  text-align:center;
+  width:75%;
 }
+#searchButton{
+  height:50px;
+  width:50px;
+}
+
 
 .video-item img{
   max-width:64px;
